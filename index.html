@@ -12,8 +12,12 @@
     />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <body class="bg-body-tertiary">
-    <header>
+  <body class="bg-body-tertiary" data-bs-spy="scroll"
+  data-bs-target="#menu"
+  data-bs-root-margin="0px 0px -10%"
+  data-bs-smooth-scroll="true"
+  tabindex="0">
+    <header class="sticky-top">
       <nav id="menu" class="navbar navbar-expand-lg bg-white shadow-sm">
         <div class="container-fluid container-md">
           <a class="navbar-brand text-primary fw-bold" href="./">
@@ -79,11 +83,7 @@
     <!-- hero section end  -->
 
     <main
-      data-bs-spy="scroll"
-      data-bs-target="#menu"
-      data-bs-root-margin="0px 500px"
-      data-bs-smooth-scroll="true"
-      tabindex="0"
+      
     >
       <!-- about section start  -->
       <section class="py-5 bg-white">
